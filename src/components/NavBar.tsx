@@ -84,22 +84,6 @@ function navLinks() {
 					<span className="block h-[1px] max-w-0 bg-gray-700 transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
 				</Link>
 			</li>
-
-			<li className="scroll-link my-1 sm:my-0 sm:mr-4">
-				<button
-					onClick={() => {
-						animateScroll.scrollToBottom();
-						const navbar = document.querySelector('#toggle-navbar');
-						if (navbar) {
-							navbar.classList.add('hidden');
-						}
-					}}
-					className="group w-full transition duration-300 hover:cursor-pointer"
-				>
-					Contact
-					<span className="block h-[1px] max-w-0 bg-gray-700 transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
-				</button>
-			</li>
 		</>
 	);
 }
@@ -154,7 +138,7 @@ export default function NavBar() {
 						onClick={() => animateScroll.scrollToTop()}
 						className="group text-lg transition duration-300 sm:text-xl"
 					>
-						ChiragAgg5k
+						Mohammed Aldaqaq
 						<span className="block h-0.5 max-w-0 bg-gray-700 transition-all duration-500 group-hover:max-w-full dark:bg-white"></span>
 					</button>
 					<div className="flex">

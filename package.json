@@ -10,10 +10,10 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"@emailjs/browser": "^4.3.3",
-		"@types/react": "18.2.75",
-		"@types/react-dom": "18.2.24",
-		"@vercel/analytics": "^1.2.2",
+		"@emailjs/browser": "latest",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"@vercel/analytics": "latest",
 		"autoprefixer": "10.4.19",
 		"eslint": "8.57.0",
 		"eslint-config-next": "^14.1.4",
@@ -38,5 +38,9 @@
 		"@types/react-scroll": "^1.8.10",
 		"prettier": "^3.2.5",
 		"prettier-plugin-tailwindcss": "^0.5.13"
-	}
+	},
+	"main": "index.js",
+	"repository": "https://github.com/Gardo32/profile-website",
+	"author": "gardodaqqaq <gardodaqqaq@gmail.com>",
+	"license": "MIT"
 }

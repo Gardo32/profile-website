@@ -10,9 +10,8 @@ const geologica = Geologica({
 });
 
 export const metadata = {
-	title: 'Chirag Aggarwal',
-	description:
-		"Showcasing the projects, skills, and achievements of Chirag Aggarwal, a talented computer science engineering student from India. Explore Chirag Aggarwal's expertise in programming, problem-solving, and technical development through this carefully curated portfolio.",
+	title: 'Mohammed Aldaqaq',
+	description: 'Personal website of Mohammed Aldaqaq',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

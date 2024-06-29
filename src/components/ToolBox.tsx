@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { TbBrandCpp, TbBrandNextjs, TbBrandTypescript } from 'react-icons/tb';
-import { DiJava, DiMongodb, DiPostgresql, DiPython } from 'react-icons/di';
-import { SiDjango, SiExpress, SiFirebase, SiFlutter, SiMysql, SiSqlite } from 'react-icons/si';
-import { FaRust } from "react-icons/fa";
+import { DiAws, DiMongodb, DiPostgresql, DiPython } from 'react-icons/di';
+import { SiFlask, SiMysql, SiPandas, SiReact, SiMicrosoftazure, SiAmazonaws,SiKubernetes,SiSolidity,SiGithub,SiGnubash,SiPowershell} from 'react-icons/si';
 import { BsAndroid2, BsGit } from 'react-icons/bs';
 import { BiLogoJavascript } from 'react-icons/bi';
 import { FcLinux } from 'react-icons/fc';
@@ -24,57 +22,30 @@ const languageTools: Tool[] = [
 		icon: <DiPython className="m-4 text-6xl text-cyan-700" />,
 	},
 	{
-		index: 1,
-		name: 'C++',
-		icon: <TbBrandCpp className="m-4 text-6xl text-blue-600 " />,
-	},
-	{
-		index: 2,
-		name: 'Java',
-		icon: <DiJava className={'m-4 text-6xl text-orange-700'} />,
-	},
-	{
 		index: 3,
 		name: 'Javascript',
 		icon: <BiLogoJavascript className={'m-4 text-6xl text-yellow-500'} />,
 	},
 	{
-		index: 4,
-		name: 'TypeScript',
-		icon: <TbBrandTypescript className="m-4 text-6xl text-blue-600" />,
-	},
-	{
-		index: 5,
-		name: 'Rust',
-		icon: <FaRust className="m-4 text-6xl text-orange-600" />,
-	}
-];
-
-const frameworkTools: Tool[] = [
-	{
-		index: 0,
-		name: 'Next.js',
-		icon: <TbBrandNextjs className={'m-4 text-6xl text-white'} />,
-	},
-	{
 		index: 1,
-		name: 'Django',
-		icon: <SiDjango className={'m-4 text-6xl text-green-800'} />,
+		name: 'Pandas',
+		icon: <SiPandas className={'m-4 text-6xl'} />,
+
 	},
 	{
 		index: 2,
-		name: 'Express.js',
-		icon: <SiExpress className={'m-4 text-6xl text-white'} />,
-	},
-	{
-		index: 3,
-		name: 'Flutter',
-		icon: <SiFlutter className={'m-4 text-6xl text-cyan-500'} />,
+		name: 'Flask',
+		icon: <SiFlask className={'m-4 text-6xl text-blue-500'} />,
 	},
 	{
 		index: 4,
-		name: 'Android',
-		icon: <BsAndroid2 className={'m-4 text-6xl text-green-600'} />,
+		name: 'React',
+		icon: <SiReact className={'m-4 text-6xl text-blue-500'} />,
+	},
+	{
+		index: 5,
+		name: 'Solidity',
+		icon: <SiSolidity className={'m-4 text-6xl text-gray-500'} />,
 	},
 ];
 
@@ -96,8 +67,18 @@ const databaseTools: Tool[] = [
 	},
 	{
 		index: 3,
-		name: 'SQLite',
-		icon: <SiSqlite className={'m-4 text-6xl text-blue-600'} />,
+		name: 'AWS',
+		icon: <SiAmazonaws className={'m-4 text-6xl'} />,
+	},
+	{
+		index: 4,
+		name: 'Azure',
+		icon: <SiMicrosoftazure className={'m-4 text-6xl text-blue-600'} />,
+	},
+	{
+		index: 5,
+		name: 'Github',
+		icon: <SiGithub className={'m-4 text-6xl text-black'} />,
 	},
 ];
 
@@ -119,22 +100,29 @@ const otherTools = [
 	},
 	{
 		index: 3,
-		name: 'Firebase',
-		icon: <SiFirebase className={'m-4 text-6xl text-yellow-600'} />,
+		name: 'Kubernetes',
+		icon: <SiKubernetes className={'m-4 text-6xl text-blue-600'} />,
 	},
+	{
+		index: 4,
+		name: 'Bash',
+		icon: <SiGnubash className={'m-4 text-6xl text-gray-800'} />,
+	},
+	{
+		index: 5,
+		name: 'PowerShell',
+		icon: <SiPowershell className={'m-4 text-6xl text-blue-600'} />,
+	},
+
 ];
 
 const columnHeaders = [
 	{
-		name: 'Languages',
+		name: 'Languages & Frameworks',
 		tools: languageTools,
 	},
 	{
-		name: 'Frameworks',
-		tools: frameworkTools,
-	},
-	{
-		name: 'Databases',
+		name: 'Databases & Cloud Platforms',
 		tools: databaseTools,
 	},
 	{

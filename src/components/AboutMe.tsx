@@ -12,14 +12,14 @@ export default function AboutMe() {
 				</h3>
 				<div className="mx-4 flex flex-col items-center justify-around rounded-xl border-2 border-cyan-400 bg-cyan-100 p-8 dark:border-0 dark:bg-gray-800 sm:mx-10 md:flex-row">
 					<Image
-						src="/profile_pic.png"
+						src="/profile_pic.jpeg"
 						alt="Profile Picture"
 						width={480}
 						height={480}
 						className="mb-10 w-full max-w-[280px] rounded-full border-4 border-cyan-500 grayscale filter transition duration-300 hover:filter-none dark:border-cyan-700 md:mb-0"
 					/>
-					<p className="flex w-full max-w-2xl items-center text-center text-base md:mb-0 md:ml-10 md:text-lg">
-						{`I'm a student at Bennett University in Greater Noida, India, where I'm studying a Bachelor of Technology in Computer Science Engineering. I am specializing in artificial intelligence, but I'll experiment with any new technology I come across. Details about my schooling, abilities, and completed projects are provided here. I hope you enjoy them, and please consider emailing me any comments you may have.`}
+					<p className="flex w-full max-w-2xl items-center text-center text-base md:mb-0 md:ml-10 text-lg">
+						{"I’m a high school student studying cloud computing at Nasser Vocational Training Center. I specialize in cloud computing because I’m particularly interested in the operational aspects of technology. However, this hasn’t stopped me from also learning about development."}
 					</p>
 				</div>
 			</div>
