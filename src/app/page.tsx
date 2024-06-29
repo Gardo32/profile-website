@@ -48,10 +48,6 @@ export default function Home() {
 					<Education />
 					<ToolBox />
 					<Projects />
-				</section>
-
-				{/* Footer/Contact Me Section */}
-				<section>
 					<ContactMe />
 				</section>
 			</main>

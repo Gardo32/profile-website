@@ -27,6 +27,11 @@ const languageTools: Tool[] = [
 		icon: <BiLogoJavascript className={'m-4 text-6xl text-yellow-500'} />,
 	},
 	{
+		index: 5,
+		name: 'Solidity',
+		icon: <SiSolidity className={'m-4 text-6xl text-gray-500'} />,
+	},
+	{
 		index: 1,
 		name: 'Pandas',
 		icon: <SiPandas className={'m-4 text-6xl'} />,
@@ -41,11 +46,6 @@ const languageTools: Tool[] = [
 		index: 4,
 		name: 'React',
 		icon: <SiReact className={'m-4 text-6xl text-blue-500'} />,
-	},
-	{
-		index: 5,
-		name: 'Solidity',
-		icon: <SiSolidity className={'m-4 text-6xl text-gray-500'} />,
 	},
 ];
 
