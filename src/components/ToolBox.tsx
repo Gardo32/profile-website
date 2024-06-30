@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { DiAws, DiMongodb, DiPostgresql, DiPython } from 'react-icons/di';
-import { SiFlask, SiMysql, SiPandas, SiReact, SiMicrosoftazure, SiAmazonaws,SiKubernetes,SiSolidity,SiGithub,SiGnubash,SiPowershell} from 'react-icons/si';
+import { SiFlask, SiMysql, SiPandas, SiReact, SiMicrosoftazure, SiAmazonaws,SiKubernetes,SiSolidity,SiGithub,SiArduino,SiGnubash,SiPowershell} from 'react-icons/si';
 import { BsAndroid2, BsGit } from 'react-icons/bs';
 import { BiLogoJavascript } from 'react-icons/bi';
 import { FcLinux } from 'react-icons/fc';
@@ -46,6 +46,11 @@ const languageTools: Tool[] = [
 		index: 4,
 		name: 'React',
 		icon: <SiReact className={'m-4 text-6xl text-blue-500'} />,
+	},
+	{
+		index: 6,
+		name: 'Arduino',
+		icon: <SiArduino className={'m-4 text-6xl text-blue-500'} />,
 	},
 ];
 
