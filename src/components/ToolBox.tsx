@@ -43,11 +43,6 @@ const languageTools: Tool[] = [
 		icon: <SiFlask className={'m-4 text-6xl text-blue-500'} />,
 	},
 	{
-		index: 4,
-		name: 'React',
-		icon: <SiReact className={'m-4 text-6xl text-blue-500'} />,
-	},
-	{
 		index: 6,
 		name: 'Arduino',
 		icon: <SiArduino className={'m-4 text-6xl text-blue-500'} />,
