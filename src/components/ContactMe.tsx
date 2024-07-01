@@ -59,10 +59,10 @@ export default function ContactMe() {
 	return (
 		<div className="flex flex-col items-center justify-center border-t-2 border-cyan-400 bg-cyan-100 py-5 text-gray-700 dark:border-0 dark:bg-gray-800 dark:text-white sm:flex-row">
 					<h1 className='mx-5 '>
-						- Made by: ChiragAgg5k
+						- Source code: ChiragAgg5k
 					</h1>
 					<h1 className='mx-5 '>
-						- Edited by: Mohammed Aldaqaq
+						- Modifications/Addons: Mohammed Aldaqaq
 					</h1>
 		</div>
 	);
