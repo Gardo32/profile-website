@@ -75,6 +75,17 @@ export default function Projects() {
 			hover_gif_dark: '/project_thumbnails/images/onrobo.jpeg',
 			hover_gif_light: '/project_thumbnails/images/onrobo.jpeg',
 		},
+		{
+			index: 3,
+			image: '/project_thumbnails/images/funcs.png',
+			image_dark: '/project_thumbnails/images/funcs.png',
+			description: 'Python Functions ',
+			name: 'Functions',
+			demo_link: '#',
+			github_link: 'https://github.com/Gardo32/functions',
+			hover_gif_dark: '/project_thumbnails/images/funcs.png',
+			hover_gif_light: '/project_thumbnails/images/funcs.png',
+		},
 	];
 
 	const columns = projects.length < 3 ? projects.length : 3;
