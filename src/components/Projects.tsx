@@ -77,7 +77,7 @@ export default function Projects() {
 		},
 		{
 			index: 3,
-			image: '/project_thumbnails/images/funcs.png',
+			image: '',
 			image_dark: '/project_thumbnails/images/funcs.png',
 			description: 'Python Functions ',
 			name: 'Functions',
@@ -85,6 +85,17 @@ export default function Projects() {
 			github_link: 'https://github.com/Gardo32/functions',
 			hover_gif_dark: '/project_thumbnails/images/funcs.png',
 			hover_gif_light: '/project_thumbnails/images/funcs.png',
+		},
+		{
+			index: 4,
+			image: '/project_thumbnails/images/image.png',
+			image_dark: '/project_thumbnails/images/image.png',
+			description: 'Steamlit App',
+			name: 'Gpa Analytics',
+			demo_link: '#',
+			github_link: 'https://gitlab.com/Gardo32/gpa-analytics',
+			hover_gif_dark: '/project_thumbnails/images/image.png',
+			hover_gif_light: '/project_thumbnails/images/image.png',
 		},
 	];
 
