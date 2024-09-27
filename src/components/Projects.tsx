@@ -97,6 +97,17 @@ export default function Projects() {
 			hover_gif_dark: '/project_thumbnails/images/image.png',
 			hover_gif_light: '/project_thumbnails/images/image.png',
 		},
+		{
+			index: 5,
+			image: '/project_thumbnails/images/farm.png',
+			image_dark: '/project_thumbnails/images/farm.png',
+			description: 'Steamlit App',
+			name: 'Farmers Aid',
+			demo_link: 'https://farmers-aid.streamlit.app/',
+			github_link: 'https://github.com/Gardo32/Farmers-Aid',
+			hover_gif_dark: '/project_thumbnails/images/farm.png',
+			hover_gif_light: '/project_thumbnails/images/farm.png',
+		},
 	];
 
 	const columns = projects.length < 3 ? projects.length : 3;
