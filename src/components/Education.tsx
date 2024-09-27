@@ -41,7 +41,7 @@ export default function Education() {
 								<p className="text-sm">CGPA: P (Pass)</p>
 							</div>
 							<Image
-								src="https://companieslogo.com/img/orig/PSO-90111d90.png?t=1720244493"
+								src="/pearson.png"
 								alt="Pearson Logo"
 								width={100}
 								height={100}
