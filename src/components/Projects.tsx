@@ -48,7 +48,7 @@ export default function Projects() {
 			image_dark: '/project_thumbnails/images/cloud.jpeg',
 			description: 'Learning Guide',
 			name: 'Cloud Guide',
-			demo_link: 'https://learn.aldaqaq.tech/',
+			demo_link: 'https://gardo32.github.io/Cloud-Guide/',
 			github_link: 'https://github.com/Gardo32/Cloud-Guide',
 			hover_gif_dark: '/project_thumbnails/images/cloud.jpeg',
 			hover_gif_light: '/project_thumbnails/images/cloud.jpeg',
