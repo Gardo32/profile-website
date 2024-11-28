@@ -17,7 +17,7 @@ export default function Education() {
 								
 								<p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2022-2025</p>
 								<p className="my-1 font-medium sm:text-2xl">Cloud Computing Diploma</p>
-								<p className="my-1 text-sm font-medium">Nasser Vocational Training Center</p>
+								<p className="my-1 text-sm font-medium">Nasser Center for Science and Technology </p>
 								<p className="text-sm">CGPA: 94.84</p>
 								<br></br>
 								<br></br>
@@ -33,39 +33,12 @@ export default function Education() {
 								height={100}
 								title="NVTC"
 								onClick={() => {
-									window.open('https://www.nvtc.edu.bh/', '_blank');
+									window.open('https://www.ncst.edu.bh/', '_blank');
 								}}
 								className="object-contain hover:cursor-pointer"
 							/>
 						</Fade>
 					</div>
-					<div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500 dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2">
-  					<Fade left>
-    					<div>
-      					<p className="mb-2 text-base text-cyan-600 dark:text-cyan-500">2022-2025</p>
-      					<p className="my-1 font-medium sm:text-xl">Pearson BTEC International Level 3 Diploma in Information Technology</p>
-      					<p className="my-1 text-sm font-medium">Training Body: Nasser Vocational Training Center  /  Awarding Body: Pearson BTEC </p>
-      					<p className="text-sm">CGPA: P (Pass)</p>
-						  <br></br>
-						  <p className="text-sm text-green-500 font-medium">Status: In Progress</p>
-      					<div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2">
-        					<div className="bg-green-400 h-2.5 rounded-full" style={{ width: '75%' }}></div>
-      					</div>
-    					</div>
-    					<Image
-      					src="/pearson.png"
-      					alt="Pearson Logo"
-      					width={100}
-      					height={100}
-      					title="Pearson"
-      					onClick={() => {
-        					window.open('https://qualifications.pearson.com/content/dam/pdf/btec-international-level-3/it/specification-and-sample-assessments/btec-international-level-3-it-specification.pdf', '_blank');
-      					}}
-      					className="object-contain hover:cursor-pointer"
-    					/>
-  					</Fade>
-					</div>
-
 					{/* </Slide> */}
 				</div>
 			</div>

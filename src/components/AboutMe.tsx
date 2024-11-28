@@ -19,7 +19,7 @@ export default function AboutMe() {
 						className="mb-10 w-full max-w-[280px] rounded-full border-4 border-cyan-500 grayscale filter transition duration-300 hover:filter-none dark:border-cyan-700 md:mb-0"
 					/>
 					<p className="flex w-full max-w-2xl items-center text-center text-base md:mb-0 md:ml-10 text-lg">
-						{"I’m a high school student studying cloud computing at Nasser Vocational Training Center. I specialize in cloud computing because I’m particularly interested in the operational aspects of technology. However, this hasn’t stopped me from also learning about development."}
+						{"I’m a high school student studying cloud computing at Nasser Center for Science and Technology. I specialize in cloud computing because I’m particularly interested in the operational aspects of technology. However, this hasn’t stopped me from also learning about development."}
 					</p>
 				</div>
 			</div>

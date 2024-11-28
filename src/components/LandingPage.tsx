@@ -13,7 +13,7 @@ export default function LandingPage() {
 		setMounted(true);
 	}, []);
 
-	const titles = ['Azure AI Engineer', 'AWS Cloud Practitioner', 'NVTC Cloud-Computing Student', 'Tech Enthusiast'];
+	const titles = ['Azure AI Engineer', 'AWS Solution Architect', 'NCST Cloud-Computing Student', 'Tech Enthusiast'];
 	const [titleIndex, setTitleIndex] = useState(0);
 
 	useEffect(() => {
